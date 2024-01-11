@@ -120,7 +120,7 @@
        &kp N1                   &kp N2                  &kp N3               &kp N4           &kp N5             &kp N6          &kp N7           &kp N8            &kp N9              &kp N0
 &none  &hs LEFT_ALT APOSTROPHE  &hm LEFT_GUI AMPERSAND  &hm LSHIFT ASTERISK  &hm LCTRL GRAVE  &kp LEFT_BRACKET   &kp MINUS       &hm RCTRL TILDE  &hm RSHIFT EQUAL  &hm RIGHT_GUI PIPE  &hm RIGHT_ALT UNDERSCORE  &none
 &none  &kp PERCENT              &kp POUND               &kp CARET            &kp DOLLAR       &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN     &kp GREATER_THAN    &kp BACKSLASH             &none
-                                                        &tog 1               &trans           &to 0              &trans          &trans           &none
+                                                        &trans               &to 1            &to 0              &trans          &trans           &trans
             >;
         };
 
