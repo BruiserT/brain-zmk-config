@@ -99,10 +99,10 @@
 
         Def {
             bindings = <
-        &kp Q           &kp W           &kp F          &kp P        &kp B  &kp J           &kp L        &kp U         &kp Y           &kp SEMICOLON
-&none   &hs LEFT_ALT A  &hm LEFT_GUI R  &hm LSHIFT S   &hm LCTRL T  &kp G  &kp M           &hm RCTRL N  &hm RSHIFT E  &hm LEFT_GUI I  &hs RIGHT_ALT O  &none
-&trans  &kp Z           &kp X           &kp C          &kp D        &kp V  &kp K           &kp H        &kp COMMA     &kp DOT         &kp SLASH        &none
-                                        &kp BACKSPACE  &to 1        &to 2  &mt ESCAPE TAB  &kp ENTER    &kp SPACE
+        &kp Q           &kp W           &kp F         &kp P        &kp B  &kp J           &kp L        &kp U          &kp Y           &kp SEMICOLON
+&none   &hs LEFT_ALT A  &hm LEFT_GUI R  &hm LSHIFT S  &hm LCTRL T  &kp G  &kp M           &hm RCTRL N  &hm RSHIFT E   &hm LEFT_GUI I  &hs RIGHT_ALT O  &none
+&trans  &kp Z           &kp X           &kp C         &kp D        &kp V  &kp K           &kp H        &kp COMMA      &kp DOT         &kp SLASH        &none
+                                        &kp SPACE     &to 1        &to 2  &mt ESCAPE TAB  &kp ENTER    &kp BACKSPACE
             >;
         };
 
@@ -144,10 +144,19 @@
 
         Canary {
             bindings = <
-        &kp W  &kp L  &kp Y   &kp P   &kp B   &kp Z   &kp F   &kp O     &kp U      &kp SEMI
-&trans  &kp C  &kp R  &kp S   &kp T   &kp G   &kp M   &kp N   &kp E     &kp I      &kp A     &trans
-&trans  &kp Q  &kp J  &kp V   &kp D   &kp K   &kp X   &kp H   &kp FSLH  &kp COMMA  &kp DOT   &trans
+        &kp W  &kp L  &kp Y   &kp P   &kp B   &kp Z   &kp F   &kp O   &kp U   &trans
+&trans  &kp C  &kp R  &kp S   &kp T   &kp G   &kp M   &kp N   &kp E   &kp I   &kp A   &trans
+&trans  &kp Q  &kp J  &kp V   &kp D   &kp K   &kp X   &kp H   &trans  &trans  &trans  &trans
                       &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
