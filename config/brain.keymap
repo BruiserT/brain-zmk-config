@@ -108,19 +108,19 @@
 
         Def {
             bindings = <
-        &kp Q           &kp W           &kp F          &kp P        &kp B  &kp J           &kp L        &kp U         &kp Y           &kp SEMICOLON
-&none   &hs LEFT_ALT A  &hm LEFT_GUI R  &hm LSHIFT S   &hm LCTRL T  &kp G  &kp M           &hm RCTRL N  &hm RSHIFT E  &hm LEFT_GUI I  &hs RIGHT_ALT O  &none
-&trans  &kp Z           &kp X           &kp C          &kp D        &kp V  &kp K           &kp H        &kp COMMA     &kp DOT         &kp SLASH        &none
-                                        &kp BACKSPACE  &to 1        &to 2  &mt ESCAPE TAB  &kp ENTER    &kp SPACE
+        &kp Q           &kp W           &kp F         &kp P          &kp B  &kp J  &kp L        &kp U           &kp Y           &kp SEMICOLON
+&none   &hs LEFT_ALT A  &hm LEFT_GUI R  &hm LSHIFT S  &hm LCTRL T    &kp G  &kp M  &hm RCTRL N  &hm RSHIFT E    &hm LEFT_GUI I  &hs RIGHT_ALT O  &none
+&trans  &kp Z           &kp X           &kp C         &kp D          &kp V  &kp K  &kp H        &kp COMMA       &kp DOT         &kp SLASH        &none
+                                        &kp SPACE     &kp BACKSPACE  &to 2  &to 1  &kp ENTER    &mt ESCAPE TAB
             >;
         };
 
         Nav {
             bindings = <
-       &none  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &none  &none   &none   &none   &none  &none
-&none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none   &none   &none   &none  &none  &none
-&none  &none  &kp HOME        &kp INSERT      &kp END          &none  &none   &none   &none   &none  &none  &none
-                              &trans          &to 2            &to 0  &trans  &trans  &trans
+       &none  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &none  &none  &none   &none   &none  &none
+&none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &none   &none   &none  &none  &none
+&none  &none  &kp HOME        &kp INSERT      &kp END          &none  &none  &none   &none   &none  &none  &none
+                              &trans          &trans           &to 0  &to 2  &trans  &trans
             >;
         };
 
@@ -129,7 +129,7 @@
        &kp N1                   &kp N2                  &kp N3               &kp N4           &kp N5             &kp N6          &kp N7           &kp N8            &kp N9              &kp N0
 &none  &hs LEFT_ALT APOSTROPHE  &hm LEFT_GUI AMPERSAND  &hm LSHIFT ASTERISK  &hm LCTRL GRAVE  &kp LEFT_BRACKET   &kp MINUS       &hm RCTRL TILDE  &hm RSHIFT EQUAL  &hm RIGHT_GUI PIPE  &hm RIGHT_ALT UNDERSCORE  &none
 &none  &kp PERCENT              &kp POUND               &kp CARET            &kp DOLLAR       &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp COMMA         &kp PERIOD          &kp BACKSLASH             &none
-                                                        &trans               &to 1            &to 0              &trans          &trans           &trans
+                                                        &trans               &trans           &to 0              &to 1           &trans           &trans
             >;
         };
 
