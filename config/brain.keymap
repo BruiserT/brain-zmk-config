@@ -111,7 +111,7 @@
         &kp Q           &kp W           &kp F          &kp P        &kp B  &kp J           &kp L        &kp U         &kp Y           &kp SEMICOLON
 &none   &hs LEFT_ALT A  &hm LEFT_GUI R  &hm LSHIFT S   &hm LCTRL T  &kp G  &kp M           &hm RCTRL N  &hm RSHIFT E  &hm LEFT_GUI I  &hs RIGHT_ALT O  &none
 &trans  &kp Z           &kp X           &kp C          &kp D        &kp V  &kp K           &kp H        &kp COMMA     &kp DOT         &kp SLASH        &none
-                                        &kp BACKSPACE  &to 1        &to 2  &mt ESCAPE TAB  &kp ENTER    &kp ENTER
+                                        &kp BACKSPACE  &to 1        &to 2  &mt ESCAPE TAB  &kp ENTER    &kp SPACE
             >;
         };
 
