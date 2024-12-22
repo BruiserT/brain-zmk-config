@@ -104,7 +104,7 @@
         };
 
         Qwerty {
-            bindings = <&to 6>;
+            bindings = <&kp NUMBER_8>;
             key-positions = <15 16>;
             layers = <5>;
         };
