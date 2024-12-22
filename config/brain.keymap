@@ -97,14 +97,10 @@
     combos {
         compatible = "zmk,combos";
 
-        canary-switch {
-            bindings = <&to 5>;
-            key-positions = <28 27>;
-        };
-
         Qwerty {
-            bindings = <&kp NUMBER_8>;
+            bindings = <&to 5>;
             key-positions = <15 16>;
+            layers = <0>;
         };
     };
 
@@ -153,15 +149,6 @@
 &none  &bt BT_CLR    &none         &none         &none         &none         &none             &none              &none  &none  &none  &to 0
 &none  &out OUT_BLE  &out OUT_USB  &none         &none         &bootloader   &bootloader       &none              &none  &none  &none  &to 0
                                    &none         &trans        &trans        &trans            &trans             &none
-            >;
-        };
-
-        Canary {
-            bindings = <
-        &kp W  &kp L  &kp Y   &kp P   &kp B   &kp Z   &kp F   &kp O   &kp U   &trans
-&trans  &kp C  &kp R  &kp S   &kp T   &kp G   &kp M   &kp N   &kp E   &kp I   &kp A   &trans
-&trans  &kp Q  &kp J  &kp V   &kp D   &kp K   &kp X   &kp H   &trans  &trans  &trans  &trans
-                      &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
